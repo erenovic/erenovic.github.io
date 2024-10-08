@@ -28,5 +28,6 @@ For further information, please refer to the [report](/files/3dgs-compression/3D
 
 The details of the implementation can be accessed in [Github](https://github.com/erenovic/GSCompression).
 
-<img src='/files/3dgs-compression/3dgs-compression.png' alt='3D Gaussian Splatting Representation Compression' width='600' height='700'>
-
+<div style="text-align: center;">
+  <img src='/files/3dgs-compression/3dgs-compression.png' alt='3D Gaussian Splatting Representation Compression' style="width: 100%; height: auto;">
+</div>

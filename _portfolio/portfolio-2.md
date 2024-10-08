@@ -10,5 +10,7 @@ For further information, please refer to the [report](/files/matchsdf/Course-Pro
 
 The details of the implementation can be accessed in [Github](https://github.com/EliasSalameh/SparseNeuS--MatchSDF).
 
-<img src='/files/matchsdf/matchsdf.png' alt='MatchSDF - 3D Surface Reconstruction from 2D Images using Correspondence Matching' width='600' height='700'>
+<div style="text-align: center;">
+  <img src='/files/matchsdf/matchsdf.png' alt='MatchSDF - 3D Surface Reconstruction from 2D Images using Correspondence Matching' style="width: 100%; height: auto;">
+</div>
 
