@@ -24,5 +24,7 @@ For further information, please refer to the [report](/files/flexible-rate-hiera
 
 The code for the proposed network can be found in [Github](https://github.com/erenovic/Bidirectional-Video-Compression-with-Motion-Refinement).
 
-<img src='/files/flexible-rate-hierarchical/bachelors_thesis_architecture.png' alt='bidirectional video compression network architecture' width='600' height='700'>
+<div style="text-align: center;">
+  <img src='/files/flexible-rate-hierarchical/bachelors_thesis_architecture.png' alt='bidirectional video compression network architecture' style="width: 100%; height: auto;">
+</div>
 
