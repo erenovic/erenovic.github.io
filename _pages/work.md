@@ -9,6 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
+* <b><ins>08.2023 - 02.2024:</ins></b> Junior Machine Learning Engineer, Visium SA / Zurich, Switzerland
+  * Developed a document storage and retrieval system based on Retrieval-Augmented Generation for a client. 
+  * Scoped, developed and maturized a production pipeline optimization project. The management part of the project advanced my presentation and project management skills.
+
 * <b><ins>07.2021 - 09.2021:</ins></b> Computer Vision Intern, ART Labs / Istanbul, Turkey
   * Participated in AR/VR workshops and designed an internship project on iterative texture
   optimizer for 3D garment models. The design achieved the best project award among 13

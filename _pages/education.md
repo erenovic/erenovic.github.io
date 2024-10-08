@@ -13,8 +13,8 @@ redirect_from:
 * <b><ins>2022 - present:</ins></b> MSc. Electrical Engineering and Information Technology, ETH Zurich
   * Specialization in Signal Processing and Machine Learning.
   * Awarded with Excellence Scholarship.
-  * GPA: 5.69/6.00
-  * <ins>Current Coursework:</ins> Deep Learning, Machine Perception, Computer Vision, Probabilistic AI, Robot Learning, Big Data, Mathematical Optimization, Model-based Estimation
+  * GPA: 5.76/6.00
+  * <ins>Current Coursework:</ins> Deep Learning, Machine Perception, Computer Vision, Probabilistic AI, Robot Learning, Large Language Models
 
 * <b><ins>2017 - 2022:</ins></b> BSc. Electrical & Electronics Engineering, Koç University
   * My studies in EEE focused mostly on ```signal processing```, ```machine learning```, 
