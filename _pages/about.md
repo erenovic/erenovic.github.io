@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Who am I?"
-excerpt: "About me"
+title: 'Who am I?'
+excerpt: 'About me'
 sitemap: true
 author_profile: true
 redirect_from:
@@ -9,14 +9,20 @@ redirect_from:
   - about.html
 ---
 
-Hello! I’m Eren Çetin, a passionate Master’s student at ETH Zürich, specializing in signal processing and machine learning. I am particularly interested in 3D vision and 3D reconstruction. For that purpose, I worked on multiple projects including generalizable 3D reconstruction from sparse views and also compression of representations such as for Gaussian Splatting. 
+Hello! I’m Eren Çetin, a passionate Master’s student at ETH Zürich, specializing
+in signal processing and machine learning. I am particularly interested in 3D
+vision and 3D reconstruction. For that purpose, I worked on multiple projects
+including generalizable 3D reconstruction from sparse views and also compression
+of representations such as for Gaussian Splatting.
 
-My academic journey began at Koç University, where I pursued a double major in Electrical & Electronics Engineering and Economics, blending the technical intricacies of engineering with the analytical mindset of economics.
-My professional interests are in ```3d vision```, ```3d reconstruction```, ```machine learning```, ```computer vision```, and ```image/video processing```.
+My academic journey began at Koç University, where I pursued a double major in
+Electrical & Electronics Engineering and Economics, blending the technical
+intricacies of engineering with the analytical mindset of economics. My
+professional interests are in `3d vision`, `3d reconstruction`,
+`machine learning`, `computer vision`, and `image/video processing`.
 
-
-For most of my research and education, I work with frameworks, languages and tools 
-such as ```Python```, ```PyTorch```, ```MATLAB```, ```C/C++```, ```CUDA Programming```.
+For most of my research and education, I work with frameworks, languages and
+tools such as `Python`, `PyTorch`, `MATLAB`, `C/C++`, `CUDA Programming`.
 
 <!--
 Create content & metadata

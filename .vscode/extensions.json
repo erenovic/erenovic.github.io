@@ -1,0 +1,37 @@
+{
+  "recommendations": [
+    // Essential formatting and linting
+    "esbenp.prettier-vscode",
+    "ms-vscode.vscode-eslint",
+    "bradlc.vscode-tailwindcss",
+
+    // Jekyll and web development
+    "ginfuru.ginfuru-vscode-jekyll-syntax",
+    "sissel.shopify-liquid",
+    "ms-vscode.vscode-json",
+    "redhat.vscode-yaml",
+
+    // Markdown support
+    "yzhang.markdown-all-in-one",
+    "davidanson.vscode-markdownlint",
+
+    // Git and version control
+    "eamodio.gitlens",
+    "github.vscode-pull-request-github",
+
+    // HTML/CSS enhancements
+    "formulahendry.auto-rename-tag",
+    "bradlc.vscode-tailwindcss",
+    "ms-vscode.vscode-css-peek",
+
+    // TypeScript/JavaScript (for your gsplat project)
+    "ms-vscode.vscode-typescript-next",
+    "christian-kohler.path-intellisense",
+    "christian-kohler.npm-intellisense",
+
+    // Utility extensions
+    "ms-vscode.vscode-color-info",
+    "gruntfuggly.todo-tree",
+    "streetsidesoftware.code-spell-checker"
+  ]
+}

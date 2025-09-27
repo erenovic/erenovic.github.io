@@ -1,0 +1,47 @@
+# Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Dependencies
+node_modules/
+vendor/
+.bundle/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Package manager lockfiles (don't format these)
+package-lock.json
+yarn.lock
+Gemfile.lock
+
+# Generated files
+assets/demos/gsplat-viewer/assets/
+
+# Jekyll template files with complex Liquid syntax
+_includes/
+_layouts/
+
+# Files with syntax errors or complex templating
+assets/css/collapse.css

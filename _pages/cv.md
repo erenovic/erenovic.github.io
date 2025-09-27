@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Resume"
+title: 'Resume'
 permalink: cv/
 sitemap: true
 author_profile: true
