@@ -46,10 +46,3 @@ recipes, and deployment tips.
   [github.com/erenovic/balancing-bot](https://github.com/erenovic/balancing-bot)
 - Issues and pull requests welcome if you build new policies or extend the
   training loop.
-
-## What to Look For
-
-- Compare how different policies absorb repeated nudges and recover speed.
-- Inspect failure cases (e.g. delayed impulses) to spot hyperparameter tweaks
-  worth exploring.
-- Use it as a quick sanity check before running longer sweeps on cloud hardware.
