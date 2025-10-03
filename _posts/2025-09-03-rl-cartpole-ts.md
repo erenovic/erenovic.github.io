@@ -3,7 +3,6 @@ title: 'RL-based Cart-Pole controller with Policy Gradient methods'
 excerpt:
   'Interactive CartPole playground for probing policy-gradient controllers, with
   live demo and full stack code on GitHub.'
-collection: posts
 ---
 
 A browser-native reinforcement learning playground that lets you see CartPole
