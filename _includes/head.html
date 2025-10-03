@@ -22,8 +22,8 @@
 
     try {
       const persisted = window.localStorage.getItem(storageKey);
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      const theme = persisted || (prefersDark ? 'dark' : 'light');
+      const valid = persisted === 'light' || persisted === 'dark' ? persisted : null;
+      const theme = valid || 'light';
       root.setAttribute('data-theme', theme);
     } catch (error) {
       root.setAttribute('data-theme', 'light');

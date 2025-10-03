@@ -114,9 +114,7 @@ $(document).ready(() => {
     if (currentAttr === 'light' || currentAttr === 'dark') {
       return currentAttr;
     }
-    return window.matchMedia('(prefers-color-scheme: dark)').matches
-      ? 'dark'
-      : 'light';
+    return 'light';
   };
 
   const setToggleState = (theme) => {
