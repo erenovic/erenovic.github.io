@@ -102,4 +102,50 @@ $(document).ready(() => {
     closeOnContentClick: true,
     midClick: true, // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
+
+  const storageKey = 'erenovic-theme';
+  const root = document.documentElement;
+  const toggleButton = $('#theme-toggle');
+  const iconSpan = toggleButton.find('.theme-toggle__icon');
+  const labelSpan = toggleButton.find('.theme-toggle__label');
+
+  const getPreferredTheme = () => {
+    const currentAttr = root.getAttribute('data-theme');
+    if (currentAttr === 'light' || currentAttr === 'dark') {
+      return currentAttr;
+    }
+    return window.matchMedia('(prefers-color-scheme: dark)').matches
+      ? 'dark'
+      : 'light';
+  };
+
+  const setToggleState = (theme) => {
+    const isDark = theme === 'dark';
+    toggleButton.attr('aria-pressed', isDark);
+    iconSpan.text(isDark ? '☀️' : '🌙');
+    labelSpan.text(isDark ? 'Light' : 'Dark');
+  };
+
+  const applyTheme = (theme, persist = true) => {
+    root.setAttribute('data-theme', theme);
+    setToggleState(theme);
+    if (persist) {
+      try {
+        window.localStorage.setItem(storageKey, theme);
+      } catch (error) {
+        // ignore persistence errors (private browsing, etc.)
+      }
+    }
+  };
+
+  if (toggleButton.length) {
+    const initialTheme = getPreferredTheme();
+    applyTheme(initialTheme, false);
+
+    toggleButton.on('click', () => {
+      const current = root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+      const next = current === 'dark' ? 'light' : 'dark';
+      applyTheme(next);
+    });
+  }
 });
