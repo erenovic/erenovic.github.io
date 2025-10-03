@@ -30,13 +30,13 @@ photorealistic 3D scenes using the efficient Gaussian splatting technique.
 Experience the interactive 3D Gaussian splat viewer directly in your browser:
 
 <div style="text-align: center; margin: 20px 0;">
-  <iframe 
-    src="/assets/demos/gsplat-viewer/index.html" 
-    width="100%" 
-    height="500px" 
+  <iframe
+    src="/assets/demos/gsplat-viewer/index.html"
+    width="100%"
+    height="500px"
     style="border: 1px solid #ccc; border-radius: 8px;"
     frameborder="0">
-    Your browser does not support iframes. 
+    Your browser does not support iframes.
     <a href="/assets/demos/gsplat-viewer/index.html" target="_blank">Open demo in new window</a>
   </iframe>
 </div>
