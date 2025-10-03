@@ -24,6 +24,38 @@ professional interests are in `3d vision`, `3d reconstruction`,
 For most of my research and education, I work with frameworks, languages and
 tools such as `Python`, `PyTorch`, `MATLAB`, `C/C++`, `CUDA Programming`.
 
+## Featured
+
+{% assign featured_post = site.posts | where: "title", "RL-based Cart-Pole controller with Policy Gradient methods" | first %}
+{% if featured_post %}
+<div class="featured-project" style="margin: 2rem 0; padding: 1.5rem; border: 1px solid #e0e0e0; border-radius: 12px; background: #fafafa;">
+  <h3 style="margin-top: 0;">
+    <a href="{{ featured_post.url | relative_url }}" style="text-decoration: none; color: inherit;">
+      {{ featured_post.title }}
+    </a>
+  </h3>
+  <p style="margin-bottom: 1.5rem; font-size: 0.95rem; line-height: 1.6;">
+    {{ featured_post.excerpt | strip_html }}
+  </p>
+  <div class="featured-demo" style="margin-bottom: 1rem;">
+    <iframe
+      src="{{ '/assets/demos/rl-cartpole/index.html' | relative_url }}"
+      width="100%"
+      height="400"
+      style="border: 1px solid #ccc; border-radius: 8px;"
+      loading="lazy"
+      frameborder="0">
+      Your browser does not support iframes.
+      <a href="{{ '/assets/demos/rl-cartpole/index.html' | relative_url }}" target="_blank">Open demo in new window</a>
+    </iframe>
+  </div>
+  <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+    <a href="{{ featured_post.url | relative_url }}" style="display: inline-block; padding: 0.6rem 1.2rem; background-color: #007cba; color: #fff; border-radius: 6px; text-decoration: none; font-weight: 600;">Read the project write-up</a>
+    <a href="{{ '/assets/demos/rl-cartpole/index.html' | relative_url }}" target="_blank" style="display: inline-block; padding: 0.6rem 1.2rem; border: 1px solid #007cba; color: #007cba; border-radius: 6px; text-decoration: none; font-weight: 600;">Launch full-screen demo</a>
+  </div>
+</div>
+{% endif %}
+
 <!--
 Create content & metadata
 ------
