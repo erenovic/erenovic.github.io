@@ -24,8 +24,12 @@ post-training pipelines.
 
 ## LoRA in a Nutshell
 
-![Placeholder for LoRA adapter visualization](/assets/blogs/recap-on-lora/lora_toy.svg){:
-.centered-img style="width:80%;" }
+<div style="text-align:center;">
+  <img src="/assets/blogs/recap-on-lora/lora_toy.svg"
+       alt="Placeholder for LoRA adapter visualization"
+       title="Schematic visualization of LoRA adapters spanning a low-rank subspace of the weight matrix via matrix A and B."
+       style="width:80%;">
+</div>
 
 LoRA inserts low-rank adapter matrices `A` and `B` alongside the original model
 weights. Because their rank is tiny, we only introduce a small number of new
