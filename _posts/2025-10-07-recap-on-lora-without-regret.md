@@ -24,10 +24,8 @@ post-training pipelines.
 
 ## LoRA in a Nutshell
 
-<img src="/assets/blogs/recap-on-lora/lora_toy.svg"
-     alt="Schematic visualization of LoRA adapters spanning a low-rank subspace of the weight matrix via matrix A and B."
-     title="Schematic visualization of LoRA adapters spanning a low-rank subspace of the weight matrix via matrix A and B."
-     style="width:80%;">
+![Placeholder for LoRA adapter visualization](/assets/blogs/recap-on-lora/lora_toy.svg){:
+.centered-img style="width:80%;" }
 
 LoRA inserts low-rank adapter matrices `A` and `B` alongside the original model
 weights. Because their rank is tiny—often around 1% of the full
@@ -41,18 +39,18 @@ experiments.
 When the base weight matrix $W \in \mathbb{R}^{d \times k}$ is frozen, LoRA
 learns a low-rank update $\Delta W$ expressed as:
 
-```math
+$$
 W' = W + \Delta W, \qquad \Delta W = B A,
-```
+$$
 
 with $B \in \mathbb{R}^{d \times r}$ and $A \in \mathbb{R}^{r \times k}$ where
 $r \ll \min(d, k)$. This keeps the additional parameters to $r(d + k)$ rather
 than $dk$. At inference time, the forward pass simply augments the frozen
 projection:
 
-```math
+$$
 y = W x + B (A x),
-```
+$$
 
 so we recover the adapted output without ever modifying the original weights.
 
