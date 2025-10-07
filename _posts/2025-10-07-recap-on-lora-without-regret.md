@@ -29,7 +29,7 @@ post-training pipelines.
        alt="Placeholder for LoRA adapter visualization"
        title="Schematic visualization of LoRA adapters spanning a low-rank subspace of the weight matrix via matrix A and B."
        style="width:80%;">
-  <figcaption><em>Schematic visualization of LoRA adapters spanning a low-rank subspace of the weight matrix via matrix A and B.</em></figcaption>
+  <figcaption>Schematic visualization of LoRA adapters spanning a low-rank subspace of the weight matrix via matrix A and B.</figcaption>
 </figure>
 
 LoRA inserts low-rank adapter matrices `A` and `B` alongside the original model
