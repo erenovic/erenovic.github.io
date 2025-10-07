@@ -34,7 +34,7 @@ post-training pipelines.
 
 LoRA inserts low-rank adapter matrices `A` and `B` alongside the original model
 weights. Because their rank is tiny, we only introduce a small number of new
-parameters (often around 1% of the number of base model parameters). During
+parameters (often around $1\%$ of the number of base model parameters). During
 training we backpropagate through the frozen base model but only update the
 adapter weights, effectively capturing task-specific information in a
 low-dimensional subspace.
