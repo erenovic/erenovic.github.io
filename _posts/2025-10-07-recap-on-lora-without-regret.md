@@ -27,8 +27,7 @@ post-training pipelines.
 <figure class="figure-centered">
   <img src="/assets/blogs/recap-on-lora/lora_toy.svg"
        alt="Placeholder for LoRA adapter visualization"
-       title="Schematic visualization of LoRA adapters spanning a low-rank subspace of the weight matrix via matrix A and B."
-       style="width:80%;">
+       title="Schematic visualization of LoRA adapters spanning a low-rank subspace of the weight matrix via matrix A and B.">
   <figcaption>Schematic visualization of LoRA adapters spanning a low-rank subspace of the weight matrix via matrix A and B.</figcaption>
 </figure>
 
