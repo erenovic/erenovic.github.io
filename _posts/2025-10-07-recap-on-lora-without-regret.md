@@ -24,7 +24,7 @@ post-training pipelines.
 
 ## LoRA in a Nutshell
 
-<figure style="text-align:center;">
+<figure class="figure-centered">
   <img src="/assets/blogs/recap-on-lora/lora_toy.svg"
        alt="Placeholder for LoRA adapter visualization"
        title="Schematic visualization of LoRA adapters spanning a low-rank subspace of the weight matrix via matrix A and B."

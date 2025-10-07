@@ -16,7 +16,15 @@
     padding: 5px;
 }
 
-.centered-img {
-  display: block;
+.figure-centered {
+  text-align: center;
   margin: 0 auto;
+}
+
+.figure-centered img {
+  display: inline-block;
+}
+
+.figure-centered figcaption {
+  margin-top: 0.4rem;
 }
