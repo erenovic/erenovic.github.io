@@ -11,7 +11,7 @@ featured_demo_url:
 
 <div style="text-align: center; margin: 20px 0;">
   <iframe
-    src="/assets/demos/rl-cartpole/index.html"
+    src="/assets/demos/earth-visualize/index.html"
     width="100%"
     height="500px"
     style="border: 1px solid #ccc; border-radius: 8px;"
