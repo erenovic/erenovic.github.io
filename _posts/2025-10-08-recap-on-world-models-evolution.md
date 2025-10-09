@@ -127,16 +127,16 @@ operate in this very efficient latent space.
 
 <figure class="figure-centered">
   <img src="/assets/blogs/recap-on-world-models/back-to-features-results.png"
-       alt="This figure visualizes the cross-attention maps inside the predictor. For a specific query patch in the future (marked in red), it shows which patches from the past frames the model is *paying attention to*."
-       title="A peek inside DINO-world's 'brain'. To predict a future patch (red dot), the model's attention (bright areas) focuses on the object's previous locations, showing how it tracks motion over time to understand physical dynamics.">
-  <figcaption>A peek inside DINO-world's 'brain'. To predict a future patch (red dot), the model's attention (bright areas) focuses on the object's previous locations, showing how it tracks motion over time to understand physical dynamic.s</figcaption>
-</figure>
-
-<figure class="figure-centered">
-  <img src="/assets/blogs/recap-on-world-models/back-to-features-results.png"
        alt="DINO-World autoregressive rollout results. This figure shows two examples of autoregressive rollouts. The top row is the real video, the middle row is the visualization of the *ground-truth* DINOv2 features, and the bottom row shows DINO-world's predicted features over time."
        title="DINO-World autoregressive rollout results. This figure shows two examples of autoregressive rollouts. The top row is the real video, the middle row is the visualization of the *ground-truth* DINOv2 features, and the bottom row shows DINO-world's predicted features over time.">
   <figcaption>DINO-World autoregressive rollout results. This figure shows two examples of autoregressive rollouts. The top row is the real video, the middle row is the visualization of the *ground-truth* DINOv2 features, and the bottom row shows DINO-world's predicted features over time. It shows that the predicted latent features closely track the real ones, correctly anticipating the movement of the taxi and the parabolic motion of the objects. It makes the abstract idea of "predicting features" tangible and proves its effectiveness. The visualization of features via PCA makes them easy to interpret visually.</figcaption>
+</figure>
+
+<figure class="figure-centered">
+  <img src="/assets/blogs/recap-on-world-models/back-to-features-cross-attn-qualitative.png"
+       alt="This figure visualizes the cross-attention maps inside the predictor. For a specific query patch in the future (marked in red), it shows which patches from the past frames the model is *paying attention to*."
+       title="A peek inside DINO-world's 'brain'. To predict a future patch (red dot), the model's attention (bright areas) focuses on the object's previous locations, showing how it tracks motion over time to understand physical dynamics.">
+  <figcaption>A peek inside DINO-world's 'brain'. To predict a future patch (red dot), the model's attention (bright areas) focuses on the object's previous locations, showing how it tracks motion over time to understand physical dynamic.s</figcaption>
 </figure>
 
 # Bottom Line: The Future of World Models
