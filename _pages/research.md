@@ -9,15 +9,29 @@ redirect_from:
 
 {% include base_path %}
 
-- <b><ins>08.2024 - present:</ins></b> Research Assistant in Computer Vision and
+- <b><ins>02.2025 - present:</ins></b> Master's Thesis Student in Computer
+  Graphics Laboratory, ETH Zurich and Disney Research Studios
+  - Research on generative video compression using video diffusion models in
+    conjunction with implicit neural representations to learn low-rate realistic
+    video representations.
+  - Finetuning existing video diffusion models such as Wan2.1 and SVD to adapt
+    their backbone for external video representation conditioning such as NeRV
+    and HiNeRV for high fidelity and perceptually-pleasing videos.
+  - Supervisors:
+    [Lucas Relic](https://scholar.google.com/citations?user=ARrpwnQAAAAJ&hl=en)
+    and
+    [Roberto Azevedo](https://studios.disneyresearch.com/people/roberto-azevedo/)
+
+- <b><ins>08.2024 - 01.2025:</ins></b> Research Assistant in Computer Vision and
   Geometry Group, ETH Zürich
   - Research on generalizable sparse view 3D Gaussian splatting for 3D
     reconstruction.
-  - I am currently working on generalizable 3D Gaussian splatting for scene
-    reconstruction. As novel view synthesis objective through regular
-    photogrammetric loss is not suitable for surface reconstruction, I am
-    working on adapting existing sparse view generalizable 3D Gaussian splatting
-    methods to surface reconstruction.
+  - I worked on generalizable 3D Gaussian splatting for scene reconstruction. As
+    novel view synthesis objective through regular photogrammetric loss is not
+    suitable for surface reconstruction, I worked on adapting existing sparse
+    view generalizable 3D Gaussian splatting methods to surface reconstruction
+    via
+    [Gaussian Opacity Fields](https://niujinshuchong.github.io/gaussian-opacity-fields/).
   - Supervisors: [Haofei Xu](https://haofeixu.github.io/) and
     [Fangjinhua Wang](https://fangjinhuawang.github.io/)
 
