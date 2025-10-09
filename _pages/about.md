@@ -9,20 +9,25 @@ redirect_from:
   - about.html
 ---
 
-Hello! I’m Eren Çetin, a passionate Master’s student at ETH Zürich, specializing
-in signal processing and machine learning. I am particularly interested in 3D
-vision and 3D reconstruction. For that purpose, I worked on multiple projects
-including generalizable 3D reconstruction from sparse views and also compression
-of representations such as for Gaussian Splatting.
+Hello! I’m **Eren Çetin**, a Master’s student at **ETH Zürich** specializing in
+**signal processing**, **machine learning**, and **computer vision**. Currently,
+I am conducting my **Master’s thesis at Disney Research Studios**, focusing on
+**generative video compression** using **video diffusion models** and **implicit
+neural representations (INRs)**.
 
-My academic journey began at Koç University, where I pursued a double major in
-Electrical & Electronics Engineering and Economics, blending the technical
-intricacies of engineering with the analytical mindset of economics. My
-professional interests are in `3d vision`, `3d reconstruction`,
-`machine learning`, `computer vision`, and `image/video processing`.
+My research broadly lies at the intersection of **3D vision**, **neural
+rendering**, and **generative models**, aiming to build scalable and efficient
+3D and video representation systems. I previously worked on **generalizable 3D
+reconstruction from sparse views** and **compression of 3D Gaussian splatting
+representations**.
 
-For most of my research and education, I work with frameworks, languages and
-tools such as `Python`, `PyTorch`, `MATLAB`, `C/C++`, `CUDA Programming`.
+I completed my **Bachelor’s degrees in Electrical & Electronics Engineering and
+Economics** at **Koç University**, graduating as salutatorian. My professional
+interests include `3D vision`, `3D reconstruction`, `neural rendering`,
+`video compression`, and `deep generative modeling`.
+
+I primarily work with `Python`, `PyTorch`, `CUDA`, `C/C++`, and `TypeScript`,
+and enjoy bridging theory with large-scale implementations and visualization.
 
 ## ✨ Featured
 
