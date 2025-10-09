@@ -24,3 +24,24 @@ featured_demo_url:
 <div style="text-align: center; margin: 10px 0;">
   <a href="/assets/demos/earth-visualize/index.html" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #007cba; color: white; text-decoration: none; border-radius: 5px;">🚀 Open Full Screen Demo</a>
 </div>
+
+## Steps to reproduce
+
+### 1. Set up the earth visualization
+
+### 2. Set up the Google Earth Engine API for self-use
+
+### 3. Deploy the demo on Cloudflare Workers
+
+## Thanks to...
+
+- [Three.js](https://threejs.org/) - A powerful 3D library for rendering and
+  animating 3D graphics in the browser.
+- [Three-Globe](https://github.com/vasturiano/three-globe) - A very nice 3D
+  globe visualization library built on top of Three.js.
+- [Google Earth Engine](https://earthengine.google.com/) - A platform for
+  planetary-scale environmental data analysis, it is free for academic and
+  non-commercial use.
+- [Cloudflare Workers](https://workers.cloudflare.com/) - A serverless platform
+  that allows you to run JavaScript code at the edge of Cloudflare's global
+  network.
