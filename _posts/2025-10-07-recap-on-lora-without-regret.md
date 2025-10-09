@@ -122,5 +122,5 @@ adapter has more than enough capacity to memorize the needed adjustments.
 
 ## Citation
 
-- Thinking Machines. “LoRA without Regret.” 2024.
-  [https://thinkingmachines.ai/blog/lora/](https://thinkingmachines.ai/blog/lora/)
+- [Thinking Machines. (2025). “LoRA without Regret.” https://thinkingmachines.ai/blog/lora/](https://thinkingmachines.ai/blog/lora/)
+- [Wang, S., Asilis, J., Akgül, Ö. F., Bilgin, E. B., Liu, O., & Neiswanger, W. (2025). "Tina: Tiny reasoning models via lora".](https://arxiv.org/pdf/2504.15777)
