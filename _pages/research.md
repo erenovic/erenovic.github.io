@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-- <b><ins>02.2025 - present:</ins></b> Master's Thesis Student in Computer
+- <b><ins>02.2025 - 12.2025:</ins></b> Master's Thesis Student in Computer
   Graphics Laboratory, ETH Zurich and Disney Research Studios
   - Research on generative video compression using video diffusion models in
     conjunction with implicit neural representations to learn low-rate realistic
