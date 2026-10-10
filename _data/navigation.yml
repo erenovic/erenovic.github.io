@@ -1,31 +1,31 @@
 # main links links
 main:
   - title: "Publications"
-    url: publications/
+    url: /publications/
 
   - title: "Research Experience"
-    url: research/
+    url: /research/
 
   - title: "Education"
-    url: education/
+    url: /education/
 
   - title: "Work Experience"
-    url: work/
+    url: /work/
 
   - title: "Portfolio"
-    url: portfolio/
+    url: /portfolio/
 
   - title: "Teaching"
-    url: teaching/
+    url: /teaching/
 
   # - title: "Extracurricular"
   #   url: extra/
 
   - title: "Blog"
-    url: posts/
+    url: /posts/
 
   - title: "CV"
-    url: files/Eren_Cetin_CV.pdf
+    url: /files/Eren_Cetin_CV.pdf
 
   #- title: "Guide"
   #  url: /markdown/
