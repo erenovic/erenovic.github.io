@@ -34,7 +34,7 @@ For further information, please refer to the
 I have prepared for my BSc thesis.
 
 The code for the proposed network can be found in
-[Github](https://github.com/erenovic/Bidirectional-Video-Compression-with-Motion-Refinement).
+[Github](https://github.com/eren-cetin/Bidirectional-Video-Compression-with-Motion-Refinement).
 
 <div style="text-align: center;">
   <img src='/files/flexible-rate-hierarchical/bachelors_thesis_architecture.png' alt='bidirectional video compression network architecture' style="width: 100%; height: auto;">

@@ -45,7 +45,7 @@ utilities—is available on GitHub. The README walks through setup, training
 recipes, and deployment tips.
 
 - Code & documentation:
-  [github.com/erenovic/balancing-bot](https://github.com/erenovic/balancing-bot)
+  [github.com/eren-cetin/balancing-bot](https://github.com/eren-cetin/balancing-bot)
 - Issues and pull requests welcome if you build new policies or extend the
   training loop.
 
