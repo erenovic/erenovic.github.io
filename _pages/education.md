@@ -10,12 +10,19 @@ redirect_from:
 
 {% include base_path %}
 
-- <b><ins>2022 - present:</ins></b> MSc. Electrical Engineering and Information
+- <b><ins>2026 - present:</ins></b> PhD, Photogrammetry and Remote Sensing
+  (PRS) Group, ETH Zurich
+  - Research on efficient video generation: `video diffusion models`,
+    `autoregressive video generation`, and `stateful generation`.
+
+- <b><ins>2022 - 2025:</ins></b> MSc. Electrical Engineering and Information
   Technology, ETH Zurich
   - Specialization in Signal Processing and Machine Learning.
+  - Master's thesis at Disney Research Studios on generative video compression
+    using video diffusion models and implicit neural representations (INRs).
   - Awarded with Excellence Scholarship.
   - GPA: 5.76/6.00
-  - <ins>Current Coursework:</ins> Deep Learning, Machine Perception, Computer
+  - <ins>Coursework:</ins> Deep Learning, Machine Perception, Computer
     Vision, Probabilistic AI, Robot Learning, Large Language Models
 
 - <b><ins>2017 - 2022:</ins></b> BSc. Electrical & Electronics Engineering, Koç
