@@ -17,6 +17,8 @@ redirect_from:
   - Finetuning existing video diffusion models such as Wan2.1 and SVD to adapt
     their backbone for external video representation conditioning such as NeRV
     and HiNeRV for high fidelity and perceptually-pleasing videos.
+  - Resulting paper (preprint):
+    [DiV-INR: Extreme Low-Bitrate Diffusion Video Compression with INR Conditioning](https://arxiv.org/abs/2604.08329)
   - Supervisors:
     [Lucas Relic](https://scholar.google.com/citations?user=ARrpwnQAAAAJ&hl=en)
     and
