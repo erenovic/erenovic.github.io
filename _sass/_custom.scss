@@ -12,3 +12,18 @@
   font-style: italic;
   margin-top: 0.4rem;
 }
+
+/* Featured card: lift the whole card on hover instead of only the image,
+   which the theme's `.page__content a:hover img` rule would otherwise shadow. */
+.page__content .featured-project {
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+
+  &:hover {
+    box-shadow: 0 6px 20px rgba(#000, 0.15);
+    transform: translateY(-3px);
+  }
+
+  a:hover img {
+    box-shadow: none;
+  }
+}
