@@ -9,8 +9,10 @@ redirect_from:
   - about.html
 ---
 
-Hello! I’m **Eren Çetin**, a **PhD student** working on **efficient video
-generation**. My research focuses on **video diffusion models**,
+Hello! I’m **Eren Çetin**, a **PhD student** in the
+[**Photogrammetry and Remote Sensing (PRS)**](https://prs.igp.ethz.ch/group/people/prs-person-detail-page.MzExMDAz.TGlzdC81Njg5LC0yMTQ2MzExODIw.html)
+group at **ETH Zürich**, working on **efficient video generation**. My research
+focuses on **video diffusion models**,
 **autoregressive video generation**, and **stateful generation**, with the goal
 of making long, high-quality video synthesis fast and scalable.
 
