@@ -9,11 +9,16 @@ redirect_from:
   - about.html
 ---
 
-Hello! I’m **Eren Çetin**, a Master’s student at **ETH Zürich** specializing in
-**signal processing**, **machine learning**, and **computer vision**. Currently,
-I am conducting my **Master’s thesis at Disney Research Studios**, focusing on
-**generative video compression** using **video diffusion models** and **implicit
-neural representations (INRs)**.
+Hello! I’m **Eren Çetin**, a **PhD student** working on **efficient video
+generation**. My research focuses on **video diffusion models**,
+**autoregressive video generation**, and **stateful generation**, with the goal
+of making long, high-quality video synthesis fast and scalable.
+
+Before starting my PhD, I completed my Master’s at **ETH Zürich**, specializing
+in **signal processing**, **machine learning**, and **computer vision**. I did my
+**Master’s thesis at Disney Research Studios** on **generative video
+compression** using **video diffusion models** and **implicit neural
+representations (INRs)**.
 
 My research broadly lies at the intersection of **3D vision**, **neural
 rendering**, and **generative models**, aiming to build scalable and efficient
@@ -23,8 +28,9 @@ representations**.
 
 I completed my **Bachelor’s degrees in Electrical & Electronics Engineering and
 Economics** at **Koç University**, graduating as salutatorian. My professional
-interests include `3D vision`, `3D reconstruction`, `neural rendering`,
-`video compression`, and `deep generative modeling`.
+interests include `video generation`, `video diffusion`, `3D vision`,
+`3D reconstruction`, `neural rendering`, `video compression`, and
+`deep generative modeling`.
 
 I primarily work with `Python`, `PyTorch`, `CUDA`, `C/C++`, and `TypeScript`,
 and enjoy bridging theory with large-scale implementations and visualization.
