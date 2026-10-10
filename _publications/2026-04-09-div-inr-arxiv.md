@@ -39,6 +39,7 @@ bitrates.
 
 Recommended citation:
 
+{% raw %}
 ```
 @misc{cetin2026divinr,
   title = {DiV-INR: Extreme Low-Bitrate Diffusion Video Compression with INR Conditioning},
@@ -50,3 +51,4 @@ Recommended citation:
   url = {https://arxiv.org/abs/2604.08329}
 }
 ```
+{% endraw %}
